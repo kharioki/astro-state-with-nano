@@ -12,9 +12,11 @@
   },
   "dependencies": {
     "@astrojs/react": "^1.2.2",
+    "@nanostores/react": "^0.4.0",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "astro": "^1.6.7",
+    "nanostores": "^0.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
