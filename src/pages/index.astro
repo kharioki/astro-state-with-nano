@@ -1,20 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 import NoteAddButton from '../components/NoteAddButton.jsx';
-import NotesList from '../components/NotesList.jsx';
+import Notes from '../components/Notes.jsx';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<h1>My <span class="text-gradient">Astro</span> Notes app</h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
 		<>
 		  <NoteAddButton client:load />
-			<NotesList client:load />
+			<Notes client:load />
 		</>
 	</main>
 </Layout>
